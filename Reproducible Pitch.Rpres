@@ -1,0 +1,39 @@
+Developing Data Products - Reproducible Pitch
+========================================================
+author: Kim Paulo D. Magboo
+date: February 14, 2019
+autosize: true
+
+Features of Shiny Application
+========================================================
+
+Utilizing the mtcars data, this shiny application explores the relationship between fuel consumption and automobile design and performance. This application lets you to navigate the following:
+
+- boxplot of mileage and automobile design and performance for exploratory data analysis
+- regression model which predicts mileage (mpg) using automobile design and performance as indpedendent variables
+
+Data Preparation
+========================================================
+
+```{r data, echo = TRUE}
+data(mtcars)
+head (mtcars)
+str(mtcars)
+```
+
+Univariate Statistics
+========================================================
+
+```{r, echo=TRUE}
+summary(mtcars)
+```
+
+Shiny Application Details
+========================================================
+
+The shiny application is available at:
+https://kimpaulo.shinyapps.io/courseprojectweek4/
+
+The codes including the server calculation (server.R) is available at:
+https://github.com/kimpaulo/Coursera-Course-Project-Week-4
+
